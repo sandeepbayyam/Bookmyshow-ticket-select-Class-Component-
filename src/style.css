@@ -1,0 +1,51 @@
+h1, p {
+  font-family: Lato;
+}
+.betterview{
+  width: 400px;
+  height:500px;
+  background-color:white;
+  border-radius:25px;
+  box-sizing: border-box;
+  box-shadow:1px 2px 2px 2px gray;
+  margin: auto;
+
+}
+.imgdiv{
+  width: 300px;
+  height: 300px;
+  display:inline-block;
+  margin-left: 50px;
+  margin-top:30px
+  
+}
+img{
+  width: 300px;
+  height: 200px;
+  margin-top:30px;
+}
+.btndiv{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+ button{
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  border:2px solid;
+  border-color: lightgreen;
+  cursor: pointer;
+}
+input{
+  width: 300px;
+  height: 50px;
+  border:2px solid;
+  background-color: seagreen;
+  color:white;
+  font-weight: bolder;
+  margin-top:20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
